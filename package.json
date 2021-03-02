@@ -1,0 +1,21 @@
+{
+  "name": "@suchipi/nexe-build",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "nexe-build": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "globby": "^11.0.2",
+    "nexe": "3.3.7",
+    "shelljs": "^0.8.4",
+    "yargs-parser": "^20.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-unobtrusive": "^1.2.5",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
