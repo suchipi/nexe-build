@@ -1,10 +1,10 @@
 {
   "name": "@suchipi/nexe-build",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "nexe-build": "index.js"
+    "nexe-build": "cli.js"
   },
   "dependencies": {
     "chalk": "^4.1.0",
