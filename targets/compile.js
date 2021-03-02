@@ -93,7 +93,7 @@ module.exports = function compile(options) {
     )} -t ${platform}-${nodeVersion}`
   );
 
-  const nativeModules = globby.sync("**/*.node");
+  const nativeModules = globby.sync(["**/*.node", "!" + outputDir]);
 
   for (const filename of nativeModules) {
     console.log(
